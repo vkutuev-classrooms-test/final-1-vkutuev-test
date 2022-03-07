@@ -11,7 +11,7 @@ jobs:
     container: vladimirkutuev/cmocka:latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Building source code
         run: |
          mkdir -p cmake_build && \
